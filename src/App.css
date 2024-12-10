@@ -7,4 +7,10 @@
 .App-header {
   background-color: #FFF;
   display: flex;
+  justify-content: center;
+}
+
+
+li {
+  list-style: none;
 }
