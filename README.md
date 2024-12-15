@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Axios
+Is a JavaScript library that allows you to make HTTP requests from the browser or Node server
+
+### Learn more
+[https://axios-http.com/ptbr/docs/intro](https://axios-http.com/ptbr/docs/intro)
