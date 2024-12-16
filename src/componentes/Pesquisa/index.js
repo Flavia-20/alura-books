@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react'
 //import { livros } from './dadosPesquisa'
 import { getLivros } from '../../servicos/livros'
 
-
 const PesquisaContainer = styled.section`
     background-image: linear-gradient(90deg, #002F52 35%, #326589 165%);
     color: #FFF;
@@ -49,9 +48,13 @@ function Pesquisa() {
     const [ livros, setLivros] = useState([])
 
     useEffect(() => {
-        const livrosAPI = getLivros()
-        setLivros(livrosAPI)
+        fetchLivros()
     }, [])
+
+    async function fetchLivros(){
+        const livrosDaAPI = await getLivros()
+        setLivros(livrosDaAPI)
+    }
 
     return (
         <PesquisaContainer>
